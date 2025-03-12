@@ -1,0 +1,42 @@
+body{
+    padding: 50px 0 50px;
+    margin: 0  200px 0;
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+    box-sizing: border-box;
+    text-align: center;
+}
+hr{
+    width:100%;
+    border: 2px solid #000; /* Set border style */
+    margin: 20px 0; 
+}
+
+section {
+    width: 80%; /* Set width of section relative to its parent */
+    margin-bottom: 20px; /* Add spacing between sections */
+    margin: 5px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+li{
+    list-style: none;
+}
+section h2,ul,li{
+    padding: 5px;
+}
+
+main{
+    display: flex;
+}
+.container{
+    width:90%;
+    background-color: blanchedalmond;
+    padding: 30px;
+}
+
+header img{
+    border: 3px solid #00000063;
+    border-radius: 20px;
+}
