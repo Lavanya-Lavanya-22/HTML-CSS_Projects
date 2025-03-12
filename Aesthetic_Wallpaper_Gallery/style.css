@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    width:70%;  
+    columns: 4 200px;
+    column-gap: 5px;
+flex-wrap: wrap;
+padding: 10px;
+
+
+
+}
+
+.flex-container div{
+    width:100%;
+    display: inline-block;
+    margin: 5px;
+    padding:5px;
+}
+
+.flex-container div img{
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgb(144, 95, 165,0.5) ;
+}
