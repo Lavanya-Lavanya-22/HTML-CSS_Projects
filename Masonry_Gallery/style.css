@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/* Body CSS */
+
+body{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+/* H1 tag */
+h1{
+    color:coral;
+    margin: 50px 0;
+}
+
+/* FLEX CONTAINER */
+
+.flex-container{
+    columns: 5 200px;  /*  in a row : 5 columns width : 200px */
+column-gap: 24px;
+width: 90%;
+margin: 0 auto 50px;
+}
+
+
+.flex-container div{
+   
+    margin: 0 24px 24px 0;
+    display: inline-block;
+    border: black solid 2px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition:  all 0.25s ease-in-out;
+}
+
+.flex-container div img{
+    width:100%;
+    filter:grayscale(100%);
+    border-radius: 5px;
+    transition:  all 0.25s ease-in-out;  
+    
+}
+
+.flex-container div p{
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.flex-container div img:hover {
+    filter: grayscale(0);
+    /* filter:grayscale(0) */
+
+}
+
+.flex-container div:hover{
+    border-color: coral;
+    box-shadow: 5px 5px 5px rgba(229, 163, 119, 0.5);
+
+}
